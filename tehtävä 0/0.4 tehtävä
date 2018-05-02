@@ -1,0 +1,15 @@
+kayttaja -> selain:
+note left of selain
+kayttaja kirjoittaa formiin jotain ja painaa talleta nappia
+end note
+selain -> palvelin: POST https://fullstack-exampleapp.herokuapp.com/new_note
+note left of palvelin
+  pyyntö lähtee palvelimelle ja palvelin 
+  lisää uuden kohteen listaan.
+end note
+palvelin -> selain: GET https://fullstack-exampleapp.herokuapp.com/notes
+note left of palvelin 
+takaisin tulee siis notes, main.css, main.js ja data.json
+status 200. Eli Postilla menee uusi tieto listaan ja sit 
+lista ladataan uudestaan selaimelle. 
+end note
