@@ -1,0 +1,15 @@
+kayttaja -> selain:
+note left of selain
+kayttaja kirjoittaa osoitekenttään
+https://fullstack-exampleapp.herokuapp.com/notes
+end note
+selain -> palvelin: GET https://fullstack-exampleapp.herokuapp.com/notes
+note left of palvelin
+  muodostetaan HTML missä olemassaolevat
+  muistiinpanot päivitettynä
+end note
+palvelin -> selain: status 304, sivun koodi (HTML)
+
+
+(KÄYTETTY WebSequenceDiagramsia)
+https://www.websequencediagrams.com/
