@@ -1,0 +1,11 @@
+kayttaja -> selain:
+note left of selain
+kayttaja kirjoittaa formiin ja painaa talleta
+end note
+selain -> palvelin: POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note left of palvelin
+  pyyntö lähtee palvelimelle ja se kertoo tulevan tiedon olevan
+  JSON muodossa ja että sillä on kaksi attribuuttia, content ja 
+  date. Muita HTTP pyyntöjä ei suoriteta. Palvelin piirtää listan uudestaan
+  ja ottaa uuden muistiinpanon vastaan.
+end note
