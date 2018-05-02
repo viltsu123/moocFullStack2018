@@ -1,0 +1,11 @@
+kayttaja -> selain:
+note left of selain
+kayttaja navigoi osoitteeseen https://fullstack-exampleapp.herokuapp.com/spa
+end note
+selain -> palvelin: GET https://fullstack-exampleapp.herokuapp.com/spa
+note left of palvelin
+  pyyntö lähtee palvelimelle ja palvelin 
+  lataa sivun sisällön. Ajaa spa.js scriptin joka palauttaa
+  muistiinpanot. 
+end note
+palvelin -> selain: GET https://fullstack-exampleapp.herokuapp.com/spa.js
