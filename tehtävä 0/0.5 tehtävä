@@ -8,4 +8,3 @@ note left of palvelin
   lataa sivun sisällön. Ajaa spa.js scriptin joka palauttaa
   muistiinpanot. 
 end note
-palvelin -> selain: GET https://fullstack-exampleapp.herokuapp.com/spa.js
